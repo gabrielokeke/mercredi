@@ -6,6 +6,7 @@ import Home from "./Pages/Home";
 import Profile from "./Pages/Profile";
 import About from "./Pages/About";
 import Form from "./Pages/Form";
+import Sidebar from "./Components/Sibebar";
 
 function App() {
   const [user, setUser] = useState(null);
@@ -36,6 +37,7 @@ function App() {
   return (
     <Router>
       <Navbar />
+      <Sidebar/>
       <Routes>
       <Route path="/" element={<Home books={books} loading={loading} error={error} />} />
         <Route path="/Profile" element={<Profile user={user} />} />
