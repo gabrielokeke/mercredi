@@ -1,0 +1,58 @@
+#reg {
+    width: 400px;
+    padding: 20px;
+    margin: 50px auto; 
+    background: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+
+#reg h1 {
+    font-size: 35px;
+}
+
+label {
+    display: block; 
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+textarea {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 2px;
+}
+
+button.submit {
+    width: 100%;
+    padding: 10px;
+    background: white;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button.submit:hover {
+    background: black;
+    color: white;
+}
+
